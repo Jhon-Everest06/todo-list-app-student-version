@@ -1,5 +1,7 @@
 const db = require("../db");
 
+
+//this function creates the essential variables for the code to work.
 //Add a comment describing what this function does and what does it return
 const getTasks = async () => {
   const res = await db.query(
