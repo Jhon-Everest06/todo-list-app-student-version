@@ -8,6 +8,7 @@ router.get("/", async (req, res) => {
   const tasks = await taskModel.getTasks();
   res.json(tasks);
 });
+//the purpose of this route is to gather the data from the list and put it in json format so its easy to read for the user.
 
 // Write a comment describing the purpose of this route
 router.post("/", async (req, res) => {
