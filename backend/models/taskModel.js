@@ -21,4 +21,6 @@ const addTask = async (title, description) => {
   return res.rows[0];
 };
 
+//this function inserts a new task into the database with a tittle, description, the date or time it was created and a default value for when the task is incomplete.
+
 module.exports = { getTasks, addTask };
